@@ -1,0 +1,60 @@
+
+.hero{
+    height: 90vh;
+}
+
+.row div{
+
+
+}
+
+
+
+.hero__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__text h1{
+    font-size: 4em;
+    color: teal;
+    
+}
+.hero__text p{
+    font-size: 1.3em;
+    color: gray;
+}
+
+ .hero__text  button{
+    display: inline-block;
+    line-height: 1.9;
+    color: #fff;
+    
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .390rem .85rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: .25rem;
+    background-color: limegreen;
+   
+
+}
+
+.hero__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__footer  h1{
+    margin: 2rem;
+    color: teal;
+}
