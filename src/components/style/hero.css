@@ -3,10 +3,7 @@
     height: 90vh;
 }
 
-.row div{
 
-
-}
 
 
 
@@ -17,13 +14,14 @@
 }
 
 .hero__text h1{
-    font-size: 4em;
-    color: teal;
+    font-size: 3.7em;
+    font-weight: 700;
+    color:#0b0b60;
     
 }
 .hero__text p{
     font-size: 1.3em;
-    color: gray;
+    color: darkgray;
 }
 
  .hero__text  button{
@@ -42,19 +40,9 @@
     font-size: 1.1rem;
     font-weight: 700;
     border-radius: .25rem;
-    background-color: limegreen;
+    background-color: #0b0b60;
    
 
 }
 
-.hero__footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 
-.hero__footer  h1{
-    margin: 2rem;
-    color: teal;
-}
