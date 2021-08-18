@@ -4,7 +4,9 @@ import Hero from './components/hero'
 import './App.css'
 import Cards from './components/cards'
 import Sectart from './components/SectionArt'
-
+import Membership from './components/membership'
+import Flye from './components/fly'
+import Gallery from './components/gallery';
 
 
 
@@ -23,8 +25,15 @@ function App() {
         <section>
         <Sectart/>
         </section>
-        
-
+        <section>
+          <Membership/>
+        </section>
+        <section>
+          <Flye/>
+        </section>
+        <section>
+          <Gallery/>
+        </section>
       </main>
       
     </div>
